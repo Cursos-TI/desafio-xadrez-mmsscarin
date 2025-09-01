@@ -2,7 +2,7 @@
 
 int main (){
 
-    int i, j, k;
+    int i, j, k, l, m;
 
     //movimento torre (5 casas para direita)
     i = 1;
@@ -28,8 +28,18 @@ int main (){
         printf ("Rainha para esquerda\n");
     }
 
-
-
-
+    //movimento cavalo (2 casas acima, 1 casa direita)
+    l = 1;
+    for ( l = 1; l <= 1; l++)  {
+                m = 1;
+        while (m <= 2)  {
+            printf ("Cavalo para cima\n");
+            m++;
+        }
+        printf ("Cavalo para direita\n");
+    }
+            
+        
+    
     return 0;
 }
